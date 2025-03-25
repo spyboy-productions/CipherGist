@@ -29,7 +29,7 @@ CipherGist is a lightweight, secure, and open-source encrypted messenger that en
 Ensure you have **Python 3** installed. Then, install the required libraries:  
 
 ```sh
-pip install pynacl requests colorama
+pip install -r requirements.txt
 ```
 
 ### 2️⃣ Create a GitHub Account  
