@@ -25,13 +25,16 @@ CipherGist is a lightweight, secure, and open-source encrypted messenger that en
 
 ## 🛠️ Installation & Setup  
 
-### 1️⃣ Install Dependencies  
-Ensure you have **Python 3** installed. Then, install the required libraries:  
-
-```sh
+### 1️⃣ Installation
+```bash
+git clone https://github.com/spyboy-productions/CipherGist.git
+```
+```
+cd CipherGist
+```
+```
 pip install -r requirements.txt
 ```
-
 ### 2️⃣ Create a GitHub Account  
 Go to [GitHub](https://github.com/) and create an account if you don’t have one.
 
@@ -50,7 +53,7 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 
 ### 5️⃣ Run CipherGist  
 ```sh
-python ciphergist.py
+python CipherGistt.py
 ```
 If it’s your first time running, it will ask for:  
 🔹 **GitHub Token**  
