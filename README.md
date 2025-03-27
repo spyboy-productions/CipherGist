@@ -1,3 +1,27 @@
+<h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
+<p align="center">
+    <a href="https://spyboy.in/twitter">
+      <img src="https://img.shields.io/badge/-TWITTER-black?logo=twitter&style=for-the-badge">
+    </a>
+    &nbsp;
+    <a href="https://spyboy.in/">
+      <img src="https://img.shields.io/badge/-spyboy.in-black?logo=google&style=for-the-badge">
+    </a>
+    &nbsp;
+    <a href="https://spyboy.blog/">
+      <img src="https://img.shields.io/badge/-spyboy.blog-black?logo=wordpress&style=for-the-badge">
+    </a>
+    &nbsp;
+    <a href="https://spyboy.in/Discord">
+      <img src="https://img.shields.io/badge/-Discord-black?logo=discord&style=for-the-badge">
+    </a>
+  
+</p>
+
+<p align="center">
+  <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/CipherGist.webp" />
+</p>
+
 ## 🛡️ CipherGist - Secure Encrypted Messenger  
 **End-to-End Encrypted Messaging via GitHub Gists**
 
@@ -112,6 +136,7 @@ These will be stored in `config.txt` for future use.
 
 ## 📝 Future Plans  
 🚀 **Mobile App** – A mobile version for Android/iOS.
+
 🔒 **Multi-User Chat Support** – Secure group conversations.  
 
 ---
