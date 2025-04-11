@@ -18,6 +18,8 @@
   
 </p>
 
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo.png" />
+
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/CipherGist.webp" />
 </p>
