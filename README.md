@@ -18,6 +18,8 @@
   
 </p>
 
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo.png" />
+
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/CipherGist.webp" />
 </p>
@@ -99,7 +101,7 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 
 ### 5️⃣ Run CipherGist  
 ```sh
-python CipherGistt.py
+python CipherGist.py
 ```
 If it’s your first time running, it will ask for:  
 🔹 **GitHub Token**  
