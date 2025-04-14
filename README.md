@@ -113,7 +113,7 @@ These will be stored in `config.txt` for future use.
 ⚠️ **IMPORTANT:**  
 **Both you and your friend must use the same `config.txt` ** for the conversation to work!  
 
-You can manually share `config.txt` with your friends or you can share using following method... 
+You can manually share `config.txt` with your friends or You can share it using the following method...
 
 ### To share config.txt
 
@@ -121,12 +121,12 @@ You can manually share `config.txt` with your friends or you can share using fol
 python send.py
 ```
 ```diff
-- Note: it will first encrypt the config.txt data and upload on gist, once your friend download it will get deleted.
+- 🔐 Note: It encrypts config.txt, uploads it to a Gist, and automatically deletes it after your friend downloads and decrypts it.
 ```
 ### To Receive config.txt
 
 ```
-pyhton receiver.py
+python receiver.py
 ```
 it will download, decrypt and save config.txt in original format and then delete the gist.
 
