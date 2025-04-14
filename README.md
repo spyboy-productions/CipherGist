@@ -17,19 +17,17 @@
     </a>
   
 </p>
-
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
-
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.webp" />
 </p>
 
-## 🛡️ CipherGist - Secure Encrypted Messenger  
-**End-to-End Encrypted Messaging via GitHub Gists**
+<h3 align="center">🛡️ CipherGist - End-to-End Encrypted Messaging via GitHub Gists</h3>
 
 CipherGist is a lightweight, secure, and open-source encrypted messenger that enables private communication using GitHub Gists as the backend. It leverages **NaCl (libsodium)** for state-of-the-art encryption, ensuring that only the intended recipient can decrypt your messages. No centralized servers, no metadata tracking—just pure encrypted messaging.
 
----
+<p align="center">
+  <img width="30%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.png" />
+</p>
 
 ## ✨ Features  
 ✅ **End-to-End Encryption** – Uses **Ed25519 (signing)** and **X25519 (encryption)** for secure communication.  
@@ -139,6 +137,8 @@ it will download, decrypt and save config.txt in original format and then delete
 python CipherGist.py
 ```
 
+<img width="80%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
+
 📤 **Sending a Message:**  
 1. Type your message and hit Enter.  
 2. The message gets encrypted and stored in your **Gist**.  
@@ -168,3 +168,5 @@ python CipherGist.py
 
 ### 🎯 Start Encrypting Today!  
 **Forget about centralized messengers.** Take control of your privacy with **CipherGist**.
+
+<h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
