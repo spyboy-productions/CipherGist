@@ -34,7 +34,7 @@ CipherGist is a lightweight, secure, and open-source encrypted messenger that en
 ✅ **No Central Server** – Messages are stored and exchanged via GitHub Gists.  
 ✅ **Self-Destructing Keys** – Private keys are never shared or stored remotely.  
 ✅ **Lightweight & Fast** – Runs in a terminal, with minimal dependencies.  
-✅ **Cross-Platform** – Works on **Windows, macOS, and Linux**.  
+✅ **Cross-Platform** – Works on **Windows, Android(Termux), macOS, and Linux**.  
 ✅ **Fully Open-Source** – Code transparency ensures security.  
 
 ---
