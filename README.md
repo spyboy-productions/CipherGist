@@ -137,7 +137,7 @@ it will download, decrypt and save config.txt in original format and then delete
 python CipherGist.py
 ```
 
-<img width="80%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
+<img width="100%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
 
 📤 **Sending a Message:**  
 1. Type your message and hit Enter.  
