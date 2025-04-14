@@ -97,10 +97,13 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 4. Click **"Create gist"**  
 5. Copy the **Gist ID** (last part of the URL)
 <img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/gist_id.png" />
+
 ### 5️⃣ Run CipherGist  
+
 ```sh
 python CipherGist.py
 ```
+
 If it’s your first time running, it will ask for:  
 🔹 **GitHub Token**  
 🔹 **Gist ID**  
