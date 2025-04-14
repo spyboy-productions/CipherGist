@@ -21,7 +21,7 @@
 <img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
 
 <p align="center">
-  <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/CipherGist.webp" />
+  <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.webp" />
 </p>
 
 ## 🛡️ CipherGist - Secure Encrypted Messenger  
