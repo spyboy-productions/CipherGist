@@ -18,7 +18,7 @@
   
 </p>
 
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo.png" />
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
 
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/CipherGist.webp" />
@@ -89,16 +89,16 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 ### 3️⃣ Get a GitHub Token  
 1. Visit: [GitHub Developer Settings](https://github.com/settings/tokens)  
 2. Click **"Generate new token" (classic)**  
-3. Select **"Gist"** permission  
+3. Select **"Gist"** with read, write, delete permission  
 4. Copy and save your **GitHub Token** (you won’t see it again!)
 
 ### 4️⃣ Create a Gist  
 1. Go to: [GitHub Gists](https://gist.github.com/)  
 2. Click **"New Gist"**  
 3. Name it **chat.txt** (keep it public or secret)  
-4. Click **"Create secret gist"**  
-5. Copy the **Gist ID** (last part of the URL: `https://gist.github.com/your-username/xxxxxxxxxx`)
-
+4. Click **"Create gist"**  
+5. Copy the **Gist ID** (last part of the URL)
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/gist_id.png" />
 ### 5️⃣ Run CipherGist  
 ```sh
 python CipherGist.py
@@ -110,8 +110,34 @@ If it’s your first time running, it will ask for:
 These will be stored in `config.txt` for future use.  
 
 ---
+⚠️ **IMPORTANT:**  
+**Both you and your friend must use the same `config.txt` ** for the conversation to work!  
+
+You can manually share `config.txt` with your friends or you can share using following method... 
+
+### To share config.txt
+
+```
+python send.py
+```
+```diff
+- Note: it will first encrypt the config.txt data and upload on gist, once your friend download it will get deleted.
+```
+### To Receive config.txt
+
+```
+pyhton receiver.py
+```
+it will download, decrypt and save config.txt in original format and then delete the gist.
+
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/send_demo.png" />
+<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/recive_demo.png" />
 
 ## 🔑 How to Use  
+
+```sh
+python CipherGist.py
+```
 
 📤 **Sending a Message:**  
 1. Type your message and hit Enter.  
@@ -121,9 +147,6 @@ These will be stored in `config.txt` for future use.
 📥 **Receiving Messages:**  
 1. The program checks your Gist every **3 seconds**.  
 2. If a new encrypted message is found, it **automatically decrypts and displays** it.  
-
-⚠️ **IMPORTANT:**  
-**Both you and your friend must use the same `config.txt`** for the conversation to work!  
 
 ---
 
